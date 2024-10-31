@@ -1,0 +1,50 @@
+{
+  "testScores": {
+    "From Scratch Tests": {
+      "FrScTe1": 0,
+      "FrScTe2": 0
+    },
+    "Modify Tests": {
+      "MoTe1": 0,
+      "MoTe2": 0,
+      "MoTe3": 0,
+      "MoTe4": 0,
+      "MoTe5": 0,
+      "MoTe6": 0,
+      "MoTe7": 0,
+      "MoTe8": 0,
+      "MoTe9": 0
+    }
+  },
+  "idToTestNameHash": {
+    "FrScTe1": "From Scratch Tests Sets up the html correctly",
+    "FrScTe2": "From Scratch Tests Adds the event listener to increment #results",
+    "MoTe1": "Modify Tests clickCounterHandler - should increment the data attribute \"clicks\"",
+    "MoTe2": "Modify Tests clickCounterHandler - should update the text content of the button",
+    "MoTe3": "Modify Tests handleKeydown - should update the text content of the #keydown-tracker div",
+    "MoTe4": "Modify Tests clickCounterHandler inline - is now a listener and not an inline function",
+    "MoTe5": "Modify Tests handleDelegation - should not update the span unless a button was pressed (ignore the div)",
+    "MoTe6": "Modify Tests handleDelegation - the event listener was not added to the buttons so they can be removed without issue",
+    "MoTe7": "Modify Tests addNewRandomNumber - creates a new li with a random number on each click",
+    "MoTe8": "Modify Tests addNewRandomNumber - each new li is only filled with a random number",
+    "MoTe9": "Modify Tests removes delegation event listener on click"
+  },
+  "testNameToIdHash": {
+    "From Scratch Tests Sets up the html correctly": "FrScTe1",
+    "From Scratch Tests Adds the event listener to increment #results": "FrScTe2",
+    "Modify Tests clickCounterHandler - should increment the data attribute \"clicks\"": "MoTe1",
+    "Modify Tests clickCounterHandler - should update the text content of the button": "MoTe2",
+    "Modify Tests handleKeydown - should update the text content of the #keydown-tracker div": "MoTe3",
+    "Modify Tests clickCounterHandler inline - is now a listener and not an inline function": "MoTe4",
+    "Modify Tests handleDelegation - should not update the span unless a button was pressed (ignore the div)": "MoTe5",
+    "Modify Tests handleDelegation - the event listener was not added to the buttons so they can be removed without issue": "MoTe6",
+    "Modify Tests addNewRandomNumber - creates a new li with a random number on each click": "MoTe7",
+    "Modify Tests addNewRandomNumber - each new li is only filled with a random number": "MoTe8",
+    "Modify Tests removes delegation event listener on click": "MoTe9"
+  },
+  "humanReadable": {
+    "From Scratch Tests": "0/2",
+    "finalTestScore": "FINAL SCORE: 0/11",
+    "Modify Tests": "0/9"
+  }
+}
